@@ -34,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onClick: ");
             }
         });
+        Log.d(TAG, "onCreate: ");
     }
 }
