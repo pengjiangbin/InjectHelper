@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 import com.jiang.annotation.BindView;
@@ -34,5 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onClick: ");
             }
         });
+        Toast.makeText(this,"onCreate",Toast.LENGTH_SHORT).show();
     }
 }
